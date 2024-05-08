@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles/styles.css" rel="stylesheet">
+    <script src="scripts/scripts.js" defer></script>
+</head>
+
+<body>
+    <h1>Kalman Web Design</h1>
+    <div class="form-container">
+        <form action="" method="POST" id="form">
+
+            <!-- Name -->
+            <label for="name">First & Last Name*</label>
+            <span id="nameAlert">Your name is required.</span>
+            <input type="text" id="name" name="name">
+
+            <!-- Email -->
+            <label for="email">Email* (Ex. kalmanwebdesign@gmail.com)</label>
+            <span id="emailAlert">Enter a valid email.</span>
+            <input type="text" name="email" id="email">
+
+            <!-- Phone Number -->
+            <label for="phone">Phone Number* (Format: 123-456-7890)</label>
+            <span id="phoneAlert">Enter a valid phone number.</span>
+            <input type="tel" id="phone" name="phone">
+
+            <!-- message -->
+            <label for="message">Message</label>
+            <textarea type="message" id="message" name="message"></textarea>
+
+            <!-- Buttons to cancel or submit form -->
+            <button type="reset" value="reset" name="cancel">Cancel</button>
+            <button type="submit" value="Confirm" name="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
